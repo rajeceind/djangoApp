@@ -1,0 +1,64 @@
+body {
+    background-color: #a8edce;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-size: 22px;
+}
+
+.row {
+ margin-bottom: 0.5em;
+ padding: 1px;
+ text-align: left;
+}
+.row label {
+ display: block;
+ float: left;
+ margin-right: 1em;
+ font-family: 'Georgia', serif;
+ font-size: 0.9em;
+ text-align: right;
+ width: 5em;
+ margin-top: 4px;
+}
+
+input {
+	margin-left: 5px;
+}
+
+#login {
+	margin-top: 200px;
+}
+
+.flash-success, .flash-error, .flash-notice, .flash-warning {
+ padding: 0.1em 0.6em;
+ margin-bottom: 0.5em;
+ border-radius: 6px;
+ font-size: 0.9em;
+}
+.flash-success {
+ background: #e9ffd9;
+ border: 1px solid #a6ca8a;
+}
+.flash-error {
+ background: #ffecec;
+ border: 1px solid #f5aca6;
+}
+.flash-notice {
+ background: #e3f7fc;
+ border: 1px solid #8ed9f6;
+}
+.flash-warning {
+ background: #fff8c4;
+ border: 1px solid #f2c779;
+}
+.error {
+ background: #f0d6d6;
+ padding: 0.5em;
+}
+
